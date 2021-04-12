@@ -1,0 +1,90 @@
+
+body {
+    background:rgba(255, 255, 255, 0.2);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0.5em;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(56, 56, 56);
+}
+
+#calc-container {
+    display: grid;
+    margin: auto;
+    width: 275px;
+    height: 550px;
+    background-color: black;
+    border-radius: 2.2em;
+    border: 10px solid black;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, minmax(30px, 1fr));
+    grid-template-rows: 2fr repeat(6, minmax(30px, 1fr));
+    box-shadow: 0 0 15px 0 rgb(53, 53, 53);
+}
+
+.light-gray {
+    background-color: #A5A5A5;
+}
+.orange {
+    background-color: #FF9E0A;
+    color: white;
+}
+.dark-gray {
+    background-color: #333333;
+    color: white;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 25em;
+    border: 0px solid transparent;
+    font-size: 1.8em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.btn:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.2);
+}
+
+.values {
+    grid-column: 1 / 5;
+    justify-self: end;
+    align-self: flex-end;
+    color: white;
+    font-size: 1.6em;
+}
+#current-value {
+    font-size: 3.2rem;
+}
+
+#zero-btn {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.smaller-text-10 { font-size: 3rem !important; }
+.smaller-text-11 { font-size: 2.8rem !important; }
+.smaller-text-12 { font-size: 2.55rem !important; }
+.smaller-text-13 { font-size: 2.4rem !important; }
+.smaller-text-14 { font-size: 2.2rem !important; }
+.smaller-text-15 { font-size: 2.05rem !important; }
+.smaller-text-16 { font-size: 1.9rem !important; }
+.smaller-text-17 { font-size: 1.8rem !important; }
+.smaller-text-18 { font-size: 1.7rem !important; }
+.smaller-text-19 { font-size: 1.6rem !important; }
+.smaller-text-20 { font-size: 1.5rem !important; }
+.smaller-text-21 { font-size: 1.45rem !important; }
+.smaller-text-22 { font-size: 1.4rem !important; }
+.smaller-text-23 { font-size: 1.3rem !important; }
+.smaller-text-24 { font-size: 1.27rem !important; }
+.smaller-text-25 { font-size: 1.23rem !important; }
+.smaller-text-26 { font-size: 1.17rem !important; }
+.smaller-text-27 { font-size: 1.14rem !important; }
+.smaller-text-28 { font-size: 1.09rem !important; }
